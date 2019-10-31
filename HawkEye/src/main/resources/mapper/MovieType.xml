@@ -5,6 +5,7 @@
         SELECT * FROM `movie_type`;
     </select>
     <resultMap id="MovieTypeList" type="MovieType">
-
+        <result property="id" column="id"/>
+        <result property="typeName" column="type_name"/>
     </resultMap>
 </mapper>

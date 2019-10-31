@@ -3,15 +3,15 @@ package com.hawkeye.pojo;
 
 public class MovieVersion {
 
-  private long id;
+  private Integer id;
   private String versionName;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 

@@ -3,35 +3,35 @@ package com.hawkeye.pojo;
 
 public class MovieTicket {
 
-  private long id;
-  private long order;
+  private Integer id;
+  private Integer order;
   private String ticketCode;
   private String qrcodeRoute;
-  private long movieId;
-  private long cinemaId;
-  private long movieHallId;
+  private Integer movieId;
+  private Integer cinemaId;
+  private Integer movieHallId;
   private double ticketPrice;
-  private java.sql.Timestamp projectionTime;
-  private long payState;
-  private java.sql.Timestamp foundTime;
-  private java.sql.Timestamp modifyTime;
-  private long uId;
+  private java.util.Date projectionTime;
+  private Integer payState;
+  private java.util.Date foundTime;
+  private java.util.Date modifyTime;
+  private Integer uId;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getOrder() {
+  public Integer getOrder() {
     return order;
   }
 
-  public void setOrder(long order) {
+  public void setOrder(Integer order) {
     this.order = order;
   }
 
@@ -54,29 +54,29 @@ public class MovieTicket {
   }
 
 
-  public long getMovieId() {
+  public Integer getMovieId() {
     return movieId;
   }
 
-  public void setMovieId(long movieId) {
+  public void setMovieId(Integer movieId) {
     this.movieId = movieId;
   }
 
 
-  public long getCinemaId() {
+  public Integer getCinemaId() {
     return cinemaId;
   }
 
-  public void setCinemaId(long cinemaId) {
+  public void setCinemaId(Integer cinemaId) {
     this.cinemaId = cinemaId;
   }
 
 
-  public long getMovieHallId() {
+  public Integer getMovieHallId() {
     return movieHallId;
   }
 
-  public void setMovieHallId(long movieHallId) {
+  public void setMovieHallId(Integer movieHallId) {
     this.movieHallId = movieHallId;
   }
 
@@ -90,47 +90,47 @@ public class MovieTicket {
   }
 
 
-  public java.sql.Timestamp getProjectionTime() {
+  public java.util.Date getProjectionTime() {
     return projectionTime;
   }
 
-  public void setProjectionTime(java.sql.Timestamp projectionTime) {
+  public void setProjectionTime(java.util.Date projectionTime) {
     this.projectionTime = projectionTime;
   }
 
 
-  public long getPayState() {
+  public Integer getPayState() {
     return payState;
   }
 
-  public void setPayState(long payState) {
+  public void setPayState(Integer payState) {
     this.payState = payState;
   }
 
 
-  public java.sql.Timestamp getFoundTime() {
+  public java.util.Date getFoundTime() {
     return foundTime;
   }
 
-  public void setFoundTime(java.sql.Timestamp foundTime) {
+  public void setFoundTime(java.util.Date foundTime) {
     this.foundTime = foundTime;
   }
 
 
-  public java.sql.Timestamp getModifyTime() {
+  public java.util.Date getModifyTime() {
     return modifyTime;
   }
 
-  public void setModifyTime(java.sql.Timestamp modifyTime) {
+  public void setModifyTime(java.util.Date modifyTime) {
     this.modifyTime = modifyTime;
   }
 
 
-  public long getUId() {
+  public Integer getUId() {
     return uId;
   }
 
-  public void setUId(long uId) {
+  public void setUId(Integer uId) {
     this.uId = uId;
   }
 

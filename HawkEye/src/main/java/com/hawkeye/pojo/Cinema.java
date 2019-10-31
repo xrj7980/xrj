@@ -3,21 +3,21 @@ package com.hawkeye.pojo;
 
 public class Cinema {
 
-  private long id;
+  private Integer id;
   private String cinemaName;
   private String detailedAddress;
   private String cinemaLandline;
-  private long cinemaBrandId;
-  private long cityId;
-  private long areaId;
-  private long streetId;
+  private Integer cinemaBrandId;
+  private Integer cityId;
+  private Integer areaId;
+  private Integer streetId;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -49,38 +49,38 @@ public class Cinema {
   }
 
 
-  public long getCinemaBrandId() {
+  public Integer getCinemaBrandId() {
     return cinemaBrandId;
   }
 
-  public void setCinemaBrandId(long cinemaBrandId) {
+  public void setCinemaBrandId(Integer cinemaBrandId) {
     this.cinemaBrandId = cinemaBrandId;
   }
 
 
-  public long getCityId() {
+  public Integer getCityId() {
     return cityId;
   }
 
-  public void setCityId(long cityId) {
+  public void setCityId(Integer cityId) {
     this.cityId = cityId;
   }
 
 
-  public long getAreaId() {
+  public Integer getAreaId() {
     return areaId;
   }
 
-  public void setAreaId(long areaId) {
+  public void setAreaId(Integer areaId) {
     this.areaId = areaId;
   }
 
 
-  public long getStreetId() {
+  public Integer getStreetId() {
     return streetId;
   }
 
-  public void setStreetId(long streetId) {
+  public void setStreetId(Integer streetId) {
     this.streetId = streetId;
   }
 

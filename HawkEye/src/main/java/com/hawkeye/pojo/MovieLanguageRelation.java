@@ -3,34 +3,34 @@ package com.hawkeye.pojo;
 
 public class MovieLanguageRelation {
 
-  private long id;
-  private long movieId;
-  private long languageId;
+  private Integer id;
+  private Integer movieId;
+  private Integer languageId;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getMovieId() {
+  public Integer getMovieId() {
     return movieId;
   }
 
-  public void setMovieId(long movieId) {
+  public void setMovieId(Integer movieId) {
     this.movieId = movieId;
   }
 
 
-  public long getLanguageId() {
+  public Integer getLanguageId() {
     return languageId;
   }
 
-  public void setLanguageId(long languageId) {
+  public void setLanguageId(Integer languageId) {
     this.languageId = languageId;
   }
 

@@ -1,36 +1,36 @@
-package com.sample;
+package com.hawkeye.pojo;
 
 
 public class MovieRelationType {
 
-  private long id;
-  private long movieTypeId;
-  private long movieId;
+  private Integer id;
+  private Integer movieTypeId;
+  private Integer movieId;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getMovieTypeId() {
+  public Integer getMovieTypeId() {
     return movieTypeId;
   }
 
-  public void setMovieTypeId(long movieTypeId) {
+  public void setMovieTypeId(Integer movieTypeId) {
     this.movieTypeId = movieTypeId;
   }
 
 
-  public long getMovieId() {
+  public Integer getMovieId() {
     return movieId;
   }
 
-  public void setMovieId(long movieId) {
+  public void setMovieId(Integer movieId) {
     this.movieId = movieId;
   }
 

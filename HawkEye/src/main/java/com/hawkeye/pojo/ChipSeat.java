@@ -3,44 +3,44 @@ package com.hawkeye.pojo;
 
 public class ChipSeat {
 
-  private long id;
-  private long chipFormationId;
-  private long seatId;
-  private long seatState;
+  private Integer id;
+  private Integer chipFormationId;
+  private Integer seatId;
+  private Integer seatState;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getChipFormationId() {
+  public Integer getChipFormationId() {
     return chipFormationId;
   }
 
-  public void setChipFormationId(long chipFormationId) {
+  public void setChipFormationId(Integer chipFormationId) {
     this.chipFormationId = chipFormationId;
   }
 
 
-  public long getSeatId() {
+  public Integer getSeatId() {
     return seatId;
   }
 
-  public void setSeatId(long seatId) {
+  public void setSeatId(Integer seatId) {
     this.seatId = seatId;
   }
 
 
-  public long getSeatState() {
+  public Integer getSeatState() {
     return seatState;
   }
 
-  public void setSeatState(long seatState) {
+  public void setSeatState(Integer seatState) {
     this.seatState = seatState;
   }
 

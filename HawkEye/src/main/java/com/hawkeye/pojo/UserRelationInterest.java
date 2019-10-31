@@ -3,34 +3,34 @@ package com.hawkeye.pojo;
 
 public class UserRelationInterest {
 
-  private long id;
-  private long interestId;
-  private long userId;
+  private Integer id;
+  private Integer interestId;
+  private Integer userId;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getInterestId() {
+  public Integer getInterestId() {
     return interestId;
   }
 
-  public void setInterestId(long interestId) {
+  public void setInterestId(Integer interestId) {
     this.interestId = interestId;
   }
 
 
-  public long getUserId() {
+  public Integer getUserId() {
     return userId;
   }
 
-  public void setUserId(long userId) {
+  public void setUserId(Integer userId) {
     this.userId = userId;
   }
 

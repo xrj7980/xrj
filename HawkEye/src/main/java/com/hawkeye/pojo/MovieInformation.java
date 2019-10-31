@@ -3,20 +3,20 @@ package com.hawkeye.pojo;
 
 public class MovieInformation {
 
-  private long id;
+  private Integer id;
   private String informationTitle;
-  private java.sql.Timestamp releaseTime;
-  private long browseNumber;
-  private long movieId;
-  private long fabulousNumber;
+  private java.util.Date releaseTime;
+  private Integer browseNumber;
+  private Integer movieId;
+  private Integer fabulousNumber;
   private String informationContent;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -30,38 +30,38 @@ public class MovieInformation {
   }
 
 
-  public java.sql.Timestamp getReleaseTime() {
+  public java.util.Date getReleaseTime() {
     return releaseTime;
   }
 
-  public void setReleaseTime(java.sql.Timestamp releaseTime) {
+  public void setReleaseTime(java.util.Date releaseTime) {
     this.releaseTime = releaseTime;
   }
 
 
-  public long getBrowseNumber() {
+  public Integer getBrowseNumber() {
     return browseNumber;
   }
 
-  public void setBrowseNumber(long browseNumber) {
+  public void setBrowseNumber(Integer browseNumber) {
     this.browseNumber = browseNumber;
   }
 
 
-  public long getMovieId() {
+  public Integer getMovieId() {
     return movieId;
   }
 
-  public void setMovieId(long movieId) {
+  public void setMovieId(Integer movieId) {
     this.movieId = movieId;
   }
 
 
-  public long getFabulousNumber() {
+  public Integer getFabulousNumber() {
     return fabulousNumber;
   }
 
-  public void setFabulousNumber(long fabulousNumber) {
+  public void setFabulousNumber(Integer fabulousNumber) {
     this.fabulousNumber = fabulousNumber;
   }
 

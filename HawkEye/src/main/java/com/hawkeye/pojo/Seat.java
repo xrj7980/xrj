@@ -3,27 +3,27 @@ package com.hawkeye.pojo;
 
 public class Seat {
 
-  private long id;
-  private long cinemaHallId;
+  private Integer id;
+  private Integer cinemaHallId;
   private String seatName;
-  private long row;
-  private long column;
+  private Integer row;
+  private Integer column;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getCinemaHallId() {
+  public Integer getCinemaHallId() {
     return cinemaHallId;
   }
 
-  public void setCinemaHallId(long cinemaHallId) {
+  public void setCinemaHallId(Integer cinemaHallId) {
     this.cinemaHallId = cinemaHallId;
   }
 
@@ -37,20 +37,20 @@ public class Seat {
   }
 
 
-  public long getRow() {
+  public Integer getRow() {
     return row;
   }
 
-  public void setRow(long row) {
+  public void setRow(Integer row) {
     this.row = row;
   }
 
 
-  public long getColumn() {
+  public Integer getColumn() {
     return column;
   }
 
-  public void setColumn(long column) {
+  public void setColumn(Integer column) {
     this.column = column;
   }
 

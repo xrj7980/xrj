@@ -3,24 +3,24 @@ package com.hawkeye.pojo;
 
 public class User {
 
-  private long id;
+  private Integer id;
   private String name;
   private String phone;
-  private long sex;
+  private Integer sex;
   private java.sql.Date birthday;
-  private long lifeStateId;
-  private long interestId;
+  private Integer lifeStateId;
+  private Integer interestId;
   private String personalizedSignature;
-  private long isHeadPortrait;
+  private Integer isHeadPortrait;
   private String headPortraitRoute;
   private String password;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -43,11 +43,11 @@ public class User {
   }
 
 
-  public long getSex() {
+  public Integer getSex() {
     return sex;
   }
 
-  public void setSex(long sex) {
+  public void setSex(Integer sex) {
     this.sex = sex;
   }
 
@@ -61,20 +61,20 @@ public class User {
   }
 
 
-  public long getLifeStateId() {
+  public Integer getLifeStateId() {
     return lifeStateId;
   }
 
-  public void setLifeStateId(long lifeStateId) {
+  public void setLifeStateId(Integer lifeStateId) {
     this.lifeStateId = lifeStateId;
   }
 
 
-  public long getInterestId() {
+  public Integer getInterestId() {
     return interestId;
   }
 
-  public void setInterestId(long interestId) {
+  public void setInterestId(Integer interestId) {
     this.interestId = interestId;
   }
 
@@ -88,11 +88,11 @@ public class User {
   }
 
 
-  public long getIsHeadPortrait() {
+  public Integer getIsHeadPortrait() {
     return isHeadPortrait;
   }
 
-  public void setIsHeadPortrait(long isHeadPortrait) {
+  public void setIsHeadPortrait(Integer isHeadPortrait) {
     this.isHeadPortrait = isHeadPortrait;
   }
 

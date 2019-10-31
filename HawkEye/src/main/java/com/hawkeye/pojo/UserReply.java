@@ -3,45 +3,45 @@ package com.hawkeye.pojo;
 
 public class UserReply {
 
-  private long id;
-  private long commentId;
-  private long targetUserId;
-  private long replyUserId;
+  private Integer id;
+  private Integer commentId;
+  private Integer targetUserId;
+  private Integer replyUserId;
   private String replyContent;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getCommentId() {
+  public Integer getCommentId() {
     return commentId;
   }
 
-  public void setCommentId(long commentId) {
+  public void setCommentId(Integer commentId) {
     this.commentId = commentId;
   }
 
 
-  public long getTargetUserId() {
+  public Integer getTargetUserId() {
     return targetUserId;
   }
 
-  public void setTargetUserId(long targetUserId) {
+  public void setTargetUserId(Integer targetUserId) {
     this.targetUserId = targetUserId;
   }
 
 
-  public long getReplyUserId() {
+  public Integer getReplyUserId() {
     return replyUserId;
   }
 
-  public void setReplyUserId(long replyUserId) {
+  public void setReplyUserId(Integer replyUserId) {
     this.replyUserId = replyUserId;
   }
 

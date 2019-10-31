@@ -16,6 +16,8 @@ public class MovieRegionServiceImpl implements MovieRegionService {
 
     @Override
     public List<MovieRegion> getMovieRegions() {
+
         return movieRegionMapper.getMovieRegions();
+
     }
 }

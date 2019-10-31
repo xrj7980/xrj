@@ -3,25 +3,25 @@ package com.hawkeye.pojo;
 
 public class MovieAtlas {
 
-  private long id;
-  private long movieId;
+  private Integer id;
+  private Integer movieId;
   private String imgRoute;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getMovieId() {
+  public Integer getMovieId() {
     return movieId;
   }
 
-  public void setMovieId(long movieId) {
+  public void setMovieId(Integer movieId) {
     this.movieId = movieId;
   }
 

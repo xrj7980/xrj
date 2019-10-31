@@ -3,57 +3,57 @@ package com.hawkeye.pojo;
 
 public class ChipFormation {
 
-  private long id;
-  private java.sql.Timestamp startTime;
-  private java.sql.Timestamp dispersionTime;
-  private long movieId;
-  private long cniemaHallId;
+  private Integer id;
+  private java.util.Date startTime;
+  private java.util.Date dispersionTime;
+  private Integer movieId;
+  private Integer cniemaHallId;
   private double price;
   private String languageVersion;
   private String chipFormationSeat;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public java.sql.Timestamp getStartTime() {
+  public java.util.Date getStartTime() {
     return startTime;
   }
 
-  public void setStartTime(java.sql.Timestamp startTime) {
+  public void setStartTime(java.util.Date startTime) {
     this.startTime = startTime;
   }
 
 
-  public java.sql.Timestamp getDispersionTime() {
+  public java.util.Date getDispersionTime() {
     return dispersionTime;
   }
 
-  public void setDispersionTime(java.sql.Timestamp dispersionTime) {
+  public void setDispersionTime(java.util.Date dispersionTime) {
     this.dispersionTime = dispersionTime;
   }
 
 
-  public long getMovieId() {
+  public Integer getMovieId() {
     return movieId;
   }
 
-  public void setMovieId(long movieId) {
+  public void setMovieId(Integer movieId) {
     this.movieId = movieId;
   }
 
 
-  public long getCniemaHallId() {
+  public Integer getCniemaHallId() {
     return cniemaHallId;
   }
 
-  public void setCniemaHallId(long cniemaHallId) {
+  public void setCniemaHallId(Integer cniemaHallId) {
     this.cniemaHallId = cniemaHallId;
   }
 

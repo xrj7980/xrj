@@ -3,19 +3,19 @@ package com.hawkeye.pojo;
 
 public class CinemaHall {
 
-  private long id;
+  private Integer id;
   private String cinemaHallName;
-  private long cinemaId;
+  private Integer cinemaId;
   private String layout;
-  private long row;
-  private long column;
+  private Integer row;
+  private Integer column;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -29,11 +29,11 @@ public class CinemaHall {
   }
 
 
-  public long getCinemaId() {
+  public Integer getCinemaId() {
     return cinemaId;
   }
 
-  public void setCinemaId(long cinemaId) {
+  public void setCinemaId(Integer cinemaId) {
     this.cinemaId = cinemaId;
   }
 
@@ -47,20 +47,20 @@ public class CinemaHall {
   }
 
 
-  public long getRow() {
+  public Integer getRow() {
     return row;
   }
 
-  public void setRow(long row) {
+  public void setRow(Integer row) {
     this.row = row;
   }
 
 
-  public long getColumn() {
+  public Integer getColumn() {
     return column;
   }
 
-  public void setColumn(long column) {
+  public void setColumn(Integer column) {
     this.column = column;
   }
 

@@ -3,25 +3,26 @@ package com.hawkeye.pojo;
 
 public class BrandAtlas {
 
-  private long id;
-  private long brandId;
+  private Integer id;
+  private Integer brandId;
   private String imgRoute;
 
 
-  public long getId() {
+
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getBrandId() {
+  public Integer getBrandId() {
     return brandId;
   }
 
-  public void setBrandId(long brandId) {
+  public void setBrandId(Integer brandId) {
     this.brandId = brandId;
   }
 

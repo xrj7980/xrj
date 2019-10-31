@@ -3,37 +3,37 @@ package com.hawkeye.pojo;
 
 public class UserWallet {
 
-  private long id;
-  private long userId;
-  private long paymentPwd;
+  private Integer id;
+  private Integer userId;
+  private Integer paymentPwd;
   private String identityCard;
   private double walletBalance;
-  private long walletState;
+  private Integer walletState;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getUserId() {
+  public Integer getUserId() {
     return userId;
   }
 
-  public void setUserId(long userId) {
+  public void setUserId(Integer userId) {
     this.userId = userId;
   }
 
 
-  public long getPaymentPwd() {
+  public Integer getPaymentPwd() {
     return paymentPwd;
   }
 
-  public void setPaymentPwd(long paymentPwd) {
+  public void setPaymentPwd(Integer paymentPwd) {
     this.paymentPwd = paymentPwd;
   }
 
@@ -56,11 +56,11 @@ public class UserWallet {
   }
 
 
-  public long getWalletState() {
+  public Integer getWalletState() {
     return walletState;
   }
 
-  public void setWalletState(long walletState) {
+  public void setWalletState(Integer walletState) {
     this.walletState = walletState;
   }
 

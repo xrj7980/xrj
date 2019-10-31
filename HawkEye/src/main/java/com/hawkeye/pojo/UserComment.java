@@ -3,45 +3,45 @@ package com.hawkeye.pojo;
 
 public class UserComment {
 
-  private long id;
-  private long themeId;
-  private long themeType;
-  private long userId;
+  private Integer id;
+  private Integer themeId;
+  private Integer themeType;
+  private Integer userId;
   private String commentContent;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getThemeId() {
+  public Integer getThemeId() {
     return themeId;
   }
 
-  public void setThemeId(long themeId) {
+  public void setThemeId(Integer themeId) {
     this.themeId = themeId;
   }
 
 
-  public long getThemeType() {
+  public Integer getThemeType() {
     return themeType;
   }
 
-  public void setThemeType(long themeType) {
+  public void setThemeType(Integer themeType) {
     this.themeType = themeType;
   }
 
 
-  public long getUserId() {
+  public Integer getUserId() {
     return userId;
   }
 
-  public void setUserId(long userId) {
+  public void setUserId(Integer userId) {
     this.userId = userId;
   }
 

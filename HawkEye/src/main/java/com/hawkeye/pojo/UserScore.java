@@ -3,17 +3,17 @@ package com.hawkeye.pojo;
 
 public class UserScore {
 
-  private long id;
+  private Integer id;
   private double score;
-  private long isBuyTickets;
+  private Integer isBuyTickets;
   private String content;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -27,11 +27,11 @@ public class UserScore {
   }
 
 
-  public long getIsBuyTickets() {
+  public Integer getIsBuyTickets() {
     return isBuyTickets;
   }
 
-  public void setIsBuyTickets(long isBuyTickets) {
+  public void setIsBuyTickets(Integer isBuyTickets) {
     this.isBuyTickets = isBuyTickets;
   }
 

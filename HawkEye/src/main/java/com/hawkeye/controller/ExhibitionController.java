@@ -7,21 +7,18 @@ import com.hawkeye.pojo.Movie;
 import com.hawkeye.service.impl.MovieRegionServiceImpl;
 import com.hawkeye.service.impl.MovieServiceImpl;
 import com.hawkeye.service.impl.MovieTypeServiceImpl;
-import com.hawkeye.util.Page;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.Map;
 
 
 /**
  * 展示控制器
  */
-@Controller
+@RestController
 @RequestMapping("/exhibition")
 public class ExhibitionController {
 
@@ -42,12 +39,12 @@ public class ExhibitionController {
      */
     @Autowired
     MovieServiceImpl movieService;
+
     /**
      * 得到所有电影类型
      * @return
      */
     @RequestMapping("/movietype")
-    @ResponseBody
     public String movietype(){
         return JSON.toJSONString(movieTypeService.getMovieTypes());
     }
@@ -57,18 +54,20 @@ public class ExhibitionController {
      * @return
      */
     @RequestMapping("/movieregion")
-    @ResponseBody
     public String movieregion(){
         return JSON.toJSONString(movieRegionService.getMovieRegions());
     }
 
     /**
-     * 得到所有电影
+     *
+     * @param page 页数
+     * @param typrId 类型Id
+     * @param regionId 区域Id
+     * @param release 年代
      * @return
      */
     @RequestMapping("/movie")
-    @ResponseBody
-    public List<Movie> movie(Map<String,Object> map,@RequestParam(value = "page",defaultValue = "1")Integer page, Integer typrId, Integer regionId, String release){
+    public List<Movie> movie(@RequestParam(value = "page",defaultValue = "1")Integer page, Integer typrId, Integer regionId, String release){
         PageHelper.startPage(page,5);
         PageInfo<Movie> pageInfo = new PageInfo<>(movieService.getMovies(typrId,regionId,release));
         return pageInfo.getList();

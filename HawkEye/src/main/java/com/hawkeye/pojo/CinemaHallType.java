@@ -3,16 +3,16 @@ package com.hawkeye.pojo;
 
 public class CinemaHallType {
 
-  private long id;
+  private Integer id;
   private String typeName;
-  private long isSpecial;
+  private Integer isSpecial;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -26,11 +26,11 @@ public class CinemaHallType {
   }
 
 
-  public long getIsSpecial() {
+  public Integer getIsSpecial() {
     return isSpecial;
   }
 
-  public void setIsSpecial(long isSpecial) {
+  public void setIsSpecial(Integer isSpecial) {
     this.isSpecial = isSpecial;
   }
 

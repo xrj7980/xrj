@@ -3,34 +3,34 @@ package com.hawkeye.pojo;
 
 public class OrderSeat {
 
-  private long id;
-  private long ticketOrder;
-  private long seatId;
+  private Integer id;
+  private Integer ticketOrder;
+  private Integer seatId;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getTicketOrder() {
+  public Integer getTicketOrder() {
     return ticketOrder;
   }
 
-  public void setTicketOrder(long ticketOrder) {
+  public void setTicketOrder(Integer ticketOrder) {
     this.ticketOrder = ticketOrder;
   }
 
 
-  public long getSeatId() {
+  public Integer getSeatId() {
     return seatId;
   }
 
-  public void setSeatId(long seatId) {
+  public void setSeatId(Integer seatId) {
     this.seatId = seatId;
   }
 

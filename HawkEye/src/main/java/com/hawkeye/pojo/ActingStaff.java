@@ -37,7 +37,7 @@ public class ActingStaff {
   }
 
 
-  public long getFilmmakerTypeId() {
+  public Integer getFilmmakerTypeId() {
     return filmmakerTypeId;
   }
 

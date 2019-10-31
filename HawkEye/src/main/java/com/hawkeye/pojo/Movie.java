@@ -3,32 +3,24 @@ package com.hawkeye.pojo;
 
 public class Movie {
 
-  private long id;
+  private Integer id;
   private String movieMainTitle;
   private String movieSubheading;
-  private long movieDuration;
+  private Integer movieDuration;
   private String defaultImg;
   private String toStar;
   private String movieSynopsis;
-  private long isUpperShelf;
-  private long movieVersionId;
-  private long movieRegionId;
-  private java.sql.Timestamp releaseTime;
-  private String version;
+  private Integer isUpperShelf;
+  private Integer movieVersionId;
+  private Integer movieRegionId;
+  private java.util.Date releaseTime;
 
-  public String getVersion() {
-    return version;
-  }
 
-  public void setVersion(String version) {
-    this.version = version;
-  }
-
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -51,11 +43,11 @@ public class Movie {
   }
 
 
-  public long getMovieDuration() {
+  public Integer getMovieDuration() {
     return movieDuration;
   }
 
-  public void setMovieDuration(long movieDuration) {
+  public void setMovieDuration(Integer movieDuration) {
     this.movieDuration = movieDuration;
   }
 
@@ -87,38 +79,38 @@ public class Movie {
   }
 
 
-  public long getIsUpperShelf() {
+  public Integer getIsUpperShelf() {
     return isUpperShelf;
   }
 
-  public void setIsUpperShelf(long isUpperShelf) {
+  public void setIsUpperShelf(Integer isUpperShelf) {
     this.isUpperShelf = isUpperShelf;
   }
 
 
-  public long getMovieVersionId() {
+  public Integer getMovieVersionId() {
     return movieVersionId;
   }
 
-  public void setMovieVersionId(long movieVersionId) {
+  public void setMovieVersionId(Integer movieVersionId) {
     this.movieVersionId = movieVersionId;
   }
 
 
-  public long getMovieRegionId() {
+  public Integer getMovieRegionId() {
     return movieRegionId;
   }
 
-  public void setMovieRegionId(long movieRegionId) {
+  public void setMovieRegionId(Integer movieRegionId) {
     this.movieRegionId = movieRegionId;
   }
 
 
-  public java.sql.Timestamp getReleaseTime() {
+  public java.util.Date getReleaseTime() {
     return releaseTime;
   }
 
-  public void setReleaseTime(java.sql.Timestamp releaseTime) {
+  public void setReleaseTime(java.util.Date releaseTime) {
     this.releaseTime = releaseTime;
   }
 

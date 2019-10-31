@@ -3,34 +3,34 @@ package com.hawkeye.pojo;
 
 public class CinemaMovie {
 
-  private long id;
-  private long cinemaId;
-  private long movieId;
+  private Integer id;
+  private Integer cinemaId;
+  private Integer movieId;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getCinemaId() {
+  public Integer getCinemaId() {
     return cinemaId;
   }
 
-  public void setCinemaId(long cinemaId) {
+  public void setCinemaId(Integer cinemaId) {
     this.cinemaId = cinemaId;
   }
 
 
-  public long getMovieId() {
+  public Integer getMovieId() {
     return movieId;
   }
 
-  public void setMovieId(long movieId) {
+  public void setMovieId(Integer movieId) {
     this.movieId = movieId;
   }
 

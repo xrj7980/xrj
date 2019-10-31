@@ -3,22 +3,22 @@ package com.hawkeye.pojo;
 
 public class Filmmaker {
 
-  private long id;
+  private Integer id;
   private String filmmakerName;
   private String filmmakerAlias;
   private String filmmakerIntroduce;
   private String fNative;
   private java.sql.Date birthday;
-  private long sex;
+  private Integer sex;
   private String defaultImg;
   private String nation;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -68,11 +68,11 @@ public class Filmmaker {
   }
 
 
-  public long getSex() {
+  public Integer getSex() {
     return sex;
   }
 
-  public void setSex(long sex) {
+  public void setSex(Integer sex) {
     this.sex = sex;
   }
 

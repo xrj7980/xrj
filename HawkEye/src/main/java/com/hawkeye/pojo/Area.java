@@ -3,16 +3,16 @@ package com.hawkeye.pojo;
 
 public class Area {
 
-  private long id;
+  private Integer id;
   private String name;
-  private long cityId;
+  private Integer cityId;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -26,11 +26,11 @@ public class Area {
   }
 
 
-  public long getCityId() {
+  public Integer getCityId() {
     return cityId;
   }
 
-  public void setCityId(long cityId) {
+  public void setCityId(Integer cityId) {
     this.cityId = cityId;
   }
 
